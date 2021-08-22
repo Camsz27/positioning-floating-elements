@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400&display=swap');
 
 * {
   box-sizing: border-box;
@@ -11,6 +12,10 @@ body {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 135px 1667.74px 702px 520px;
   font-family: 'Titillium Web', Helvetica, 'Trebuchet MS', Arial, sans-serif;
+}
+
+p {
+  color: #4d4d4d;
 }
 
 a {
@@ -129,8 +134,111 @@ nav h3:hover {
 }
 
 article {
-  background-color: cadetblue;
   width: 71%;
+}
+
+article h1 {
+  margin: 2.5px 0 15px;
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 3rem;
+}
+
+#icons img {
+  border-radius: 100%;
+  width: 32px;
+  padding: 2px;
+  margin-right: 1px;
+}
+
+.facebook {
+  background-color: #3b5998;
+}
+
+.twitter {
+  background-color: #1da1f2;
+}
+
+.whatsapp {
+  background-color: #4dc247;
+}
+
+.linkedin {
+  background-color: #0077b5;
+}
+
+.reddit {
+  background-color: #ff5700;
+}
+
+.mail,
+.printer {
+  background-color: #999999;
+}
+
+strong {
+  color: #484848;
+}
+
+.date {
+  margin: 7px 0;
+}
+
+.author {
+  margin-bottom: 10px;
+}
+
+.author a {
+  font-weight: 600;
+}
+
+.mainPhoto {
+  width: 760px;
+}
+
+.caption {
+  font-size: 12px;
+  font-weight: 700;
+  margin-top: -7px;
+}
+
+.reference {
+  font-size: 12px;
+  margin-top: -3px;
+  margin-bottom: 20px;
+}
+
+.text {
+  font-family: 'PT Serif', Georgia, serif;
+  font-size: 17px;
+  line-height: 25px;
+  margin-bottom: 0.6875rem;
+  color: #585858;
+}
+
+#readMore {
+  background-color: #f5f5f5;
+  height: 41px;
+  padding: 9px;
+  margin: 22px 0;
+  font-weight: 700;
+}
+
+#moreInfo {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+}
+
+#moreInfo button {
+  background-color: #005587;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 7.33px;
+  border: none;
+  border-radius: 0.188rem;
+  margin-left: 10px;
 }
 
 aside {
