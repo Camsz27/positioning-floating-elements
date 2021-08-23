@@ -1,15 +1,15 @@
 # positioning-floating-elements
 
-A simple clone of the form used by Mint.com  
-This is the link to the original page [Click Here](https://accounts.intuit.com/signup.html?offering_id=Intuit.ifs.mint&namespace_id=50000026&redirect_url=https%3A%2F%2Fmint.intuit.com%2Foverview.event%3Ftask%3DS)
+A simple clone of an article from New Scientist
+This is the link to the original page [Click Here](https://www.newscientist.com/article/2286218-ancient-lake-in-marss-gale-crater-may-have-actually-been-a-small-pond/)
 
 ## Live Demo
 
-[Click Here](https://camsz27.github.io/sign-up-clone/)
+[Click Here](https://camsz27.github.io/positioning-floating-elements/)
 
 ## Description
 
-The goal of this project was to reinforce my HTML and CSS skills by making a form that looks like the original.
+The objective of this project was to use CSS grid and flexbox to create the layout of a webpage.
 
 ## Built With
 

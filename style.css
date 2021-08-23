@@ -149,6 +149,7 @@ article h1 {
   width: 32px;
   padding: 2px;
   margin-right: 1px;
+  cursor: pointer;
 }
 
 .facebook {
@@ -239,6 +240,7 @@ strong {
   border: none;
   border-radius: 0.188rem;
   margin-left: 10px;
+  cursor: pointer;
 }
 
 aside {
@@ -295,9 +297,212 @@ aside {
 
 #moreContent {
   grid-area: 3/1/4/5;
-  background-color: chocolate;
+  margin-left: 180px;
+}
+
+#upperContainer {
+  display: flex;
+  margin-bottom: 50px;
+}
+
+#buttons {
+  display: flex;
+  flex-flow: column;
+}
+
+#magazine {
+  margin-left: 140px;
+  margin-right: 10px;
+}
+
+#buttons button {
+  width: 185px;
+  height: 31px;
+  margin-bottom: 10px;
+  color: white;
+  font-weight: 600;
+  border: none;
+  border-radius: 0.188rem;
+  cursor: pointer;
+}
+
+.subscribe {
+  background-color: #00b3e5;
+}
+
+.view {
+  background-color: #20b2aa;
+}
+
+.buy {
+  background-color: #ff0000;
+}
+
+#lowerContainer h2 {
+  margin-bottom: 15px;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+#lowerContainer h3 {
+  font-weight: 700;
+  font-size: 1.375rem;
+  line-height: 1.56rem;
+}
+
+#imageContainer {
+  display: flex;
+}
+
+#imageContainer div,
+#imageContainer img {
+  width: 259px;
+  margin-right: 15px;
+}
+
+#lowerContainer h4 {
+  font-size: 18px;
+  color: #4d4d4d;
+  font-weight: 400;
+  margin-top: 25px;
 }
 
 footer {
   grid-area: 4/1/5/5;
+  background-color: #f5f5f5;
+  padding-left: 180px;
+}
+
+footer h1 {
+  margin: 25px 0 15px;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+label {
+  font-family: 'PT Serif', Georgia, serif;
+  font-size: 16px;
+  color: #4d4d4d;
+}
+
+input {
+  background-color: inherit;
+  font-family: 'PT Serif', Georgia, serif;
+  font-size: 16px;
+  border: none;
+  border-bottom: 2px solid black;
+  width: 325px;
+  margin: 0 10px;
+}
+
+form button {
+  width: 240px;
+  height: 30px;
+  font-family: 'Titillium Web', Helvetica, 'Trebuchet MS', Arial, sans-serif;
+  font-size: 16px;
+  background-color: #005587;
+  color: white;
+  font-weight: 600;
+  border: none;
+  border-radius: 0.188rem;
+}
+
+.initialMenu {
+  display: flex;
+  margin: 30px 0 15px 230px;
+}
+
+.middleMenu {
+  display: flex;
+  margin: 10px 0 15px 280px;
+}
+
+.finalMenu {
+  display: flex;
+  margin: 10px 0 0 200px;
+}
+
+.footerMenu h5 {
+  border-right: 1px solid black;
+  font-family: 'PT Serif', Georgia, serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #000000;
+  margin-right: 0.6875rem;
+  padding-right: 0.6875rem;
+}
+
+.footerMenu h5:last-child {
+  border: none;
+}
+
+hr {
+  margin-right: 180px;
+}
+
+#cookies {
+  width: 150px;
+  height: 30px;
+  margin-top: 1.375rem;
+  font-family: 'Titillium Web', Helvetica, 'Trebuchet MS', Arial, sans-serif;
+  font-size: 16px;
+  background-color: #005587;
+  color: white;
+  font-weight: 600;
+  border: none;
+  border-radius: 0.188rem;
+  margin: 1.375rem 35% 0;
+}
+
+.follow div {
+  display: flex;
+  font-size: 16px;
+  margin: 25px 0 10px 350px;
+}
+
+.follow div h4 {
+  font-weight: 400;
+  margin-right: 180px;
+}
+
+#followIcons {
+  margin-top: 0;
+}
+
+#google {
+  width: 110px;
+  margin: 0 30px;
+}
+
+.footer {
+  position: relative;
+  margin: 0 !important;
+}
+
+.footer img {
+  width: 26px !important;
+  height: 26px !important;
+  margin-right: 4px !important;
+}
+
+footer p {
+  margin-top: 40px;
+}
+
+#disclaimer {
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  border: none;
+  border-radius: 10px;
+  background-color: #6aaae4;
+  top: 93vh;
+  left: 15px;
+  z-index: 1;
+}
+
+#disclaimer img {
+  position: relative;
+  top: 10%;
+  left: 20%;
 }
